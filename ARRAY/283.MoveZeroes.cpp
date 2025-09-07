@@ -1,7 +1,7 @@
 //   PROBLEM : MOVE-ZEROES
 //   LINK : https://leetcode.com/problems/move-zeroes
 //   APPROACH : TRAVERSE THORUGH ARRAY USING TWO-POINTER
-//   DIFFICULTY : EASY
+//   DIFFICULTY : EASY 
 
 
 class Solution {
@@ -15,4 +15,5 @@ public:
                 }
             }
     }
+
 };
