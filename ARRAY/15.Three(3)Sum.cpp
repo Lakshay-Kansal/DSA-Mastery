@@ -27,7 +27,7 @@ public:
     }
 };
 
-// OPTIMAL APPROACH : 2-NESTED LOOPS int k =-(nums[i]+nums[j]) FIND THIRD ELEMENT USING THIS
+// BETTER APPROACH : 2-NESTED LOOPS int k =-(nums[i]+nums[j]) FIND THIRD ELEMENT USING THIS
 //                    CREATE ANOTHER SET STORING VALUES BETWEEN I--->J TRAVERSE SET TO GET VALUE 
 class Solution {
 public:
@@ -80,4 +80,5 @@ public:
             }
         } return ans;
     }
+
 };
