@@ -1,7 +1,7 @@
 //   PROBLEM : MINIMUM OPERATION TO MAKE ARRAY SUM DIVISIBLE BY K  
 //   LINK : https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k
 //   DIFFICULTY : EASY
-//   APPROACH : CHECK FROM BACK ODD NUMBER FOUND RETURN ANSWER 
+//   APPROACH : FIND SUM THEN MODULO OF SUM IS ANSWER 
 
 class Solution {
 public:
@@ -12,4 +12,5 @@ public:
         }
         return sum%k;
     }
+
 };
